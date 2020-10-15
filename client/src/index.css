@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #616161;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+th a {
+  color: white;
+  padding: 0 5px;
+  font-size: 10px;
+}
+
+.nav-wrapper {
+  padding: 0 2rem;
+}
+
+nav .left {
+  padding-left: 10rem;
+}
+
+.events-container {
+  padding-top: 2rem;
+  color: white;
+}
+
+.input-field.inline {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+input {
+  color: white;
+}
+
+/* label color */
+.input-field label {
+  color: white;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: white;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus,
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  box-shadow: none;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+.row .col.s4 {
+  margin-left: 0;
+}
+
+.dropdown-content li>span {
+  color: grey;
+}
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.layout-number {
+  margin-right: 0px;
+  width: 50px;
+}
+
+.datepicker-calendar-container,
+.datepicker-calendar-container input{
+  color: gray;
+}
+
+.disabled {
+  color: grey;
+}
+
+.arrow {
+  color: white;
+}
